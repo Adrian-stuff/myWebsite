@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="SoundboardApp" name="description">
+        <link href="App.css" rel="stylesheet">
+        <link href="logo192.png" rel="icon">
+        <script>
+            function play() {
+              var audio = document.getElementById("audio");
+              audio.volume = 1.0;
+              audio.play();
+              
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <div class="App-header">
+            <!-- <div class="App-logo"> <img  src="logo.png" alt="tite"onClick="play"  /> </div> -->
+            <input title="Credits sa pic ni David hehehehe" type="image" value="PLAY" src="logo.png" class="App-logo" onclick="play()">
+            <audio id="audio" src="clip2.mp3" ></audio>
+            <p onclick="play">pls dont click me XD</p>
+            <p id="copyright">&copy; Copyright <strong>Adrian De Vera</strong>. All Rights Reserved</p>
+        </div>
+    </body>
+</html>
