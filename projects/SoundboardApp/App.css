@@ -45,5 +45,6 @@ body {
 #copyright{
   color: black;
   position: absolute;
-  bottom: 0;
+  top: 90%
+;
 }
